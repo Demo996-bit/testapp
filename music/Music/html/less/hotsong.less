@@ -1,0 +1,59 @@
+.hotsong{
+  font-size: 12rem/@baseFont;
+
+  div{
+    width: 100%;
+    padding: 8rem/@baseFont 5rem/@baseFont;
+    border-bottom: 1rem/@baseFont solid beige;
+    border-top: 1rem/@baseFont solid beige;
+    white-space: nowrap;
+    position: relative;
+    left: 3rem/@baseFont;
+
+    .num{
+      display: inline-block;
+      float: left;
+      position: relative;
+      top: 10rem/@baseFont;
+      right: 4rem/@baseFont;
+
+    }
+
+    .song
+    {
+      display: inline-block;
+      font-weight: normal;
+    }
+    .alias
+    {
+      display: inline-block;
+      font-weight: normal;
+      color: gray;
+      width: 180rem/@baseFont;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      top: 4rem/@baseFont;
+    }
+    h4 {
+      font-size: 12rem/@baseFont;
+      font-weight: normal;
+      color: gray;
+      position: relative;
+      left: 15rem/@baseFont;
+
+      span {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 2rem/@baseFont;
+        color: @mainColor;
+        border: 1rem/@baseFont solid @mainColor;
+        transform: scale(0.65);
+        position: relative;
+        right: 3rem/@baseFont;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,399 @@
+@charset "UTF-8";
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 112.5px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 117.1875px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 120px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 125px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 129.375px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 132.5px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 150px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 168.75px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 200px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 225px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 234.375px;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  resize: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+.clearFix::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 0.18rem;
+  color: #333;
+}
+a {
+  color: #333;
+}
+.topbar {
+  width: 100%;
+  height: 0.6rem;
+  background: #d43c33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.1rem;
+}
+.topbar h1 {
+  width: 1.46rem;
+}
+.topbar h1 img {
+  width: 100%;
+}
+.topbar button {
+  width: 0.8rem;
+  height: 0.35rem;
+  border: 0.01rem solid white;
+  border-radius: 0.4rem;
+  background: transparent;
+  color: white;
+}
+.hot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.12rem;
+  text-align: left;
+  flex-wrap: wrap;
+  padding-bottom: 0.2rem;
+}
+.hot div {
+  width: 32.8%;
+}
+.hot div img {
+  width: 100%;
+}
+.new {
+  font-size: 0.12rem;
+}
+.new div {
+  width: 100%;
+  padding: 0.08rem 0.05rem;
+  border-bottom: 0.01rem solid beige;
+  border-top: 0.01rem solid beige;
+  white-space: nowrap;
+  position: relative;
+  left: 0.03rem;
+}
+.new div img {
+  display: inline-block;
+  width: 0.2rem;
+  height: 0.2rem;
+  float: right;
+  position: relative;
+  top: 0.12rem;
+  right: 0.1rem;
+}
+.new div .song {
+  display: inline-block;
+  font-weight: normal;
+}
+.new div .alias {
+  display: inline-block;
+  font-weight: normal;
+  color: gray;
+  width: 1.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  top: 0.04rem;
+}
+.new div h4 {
+  font-size: 0.12rem;
+  font-weight: normal;
+  color: gray;
+  position: relative;
+  right: 0.03rem;
+}
+.new div h4 span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.02rem;
+  color: #d43c33;
+  border: 0.01rem solid #d43c33;
+  transform: scale(0.65);
+  position: relative;
+  left: 0.02rem;
+}
+.title {
+  font-size: 0.16rem;
+  padding: 0.1rem 0.08rem;
+  position: relative;
+}
+.title span:before {
+  content: "";
+  background: #d43c33;
+  width: 0.02rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0.01rem;
+}
+.nav {
+  font-size: 0.14rem;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0.1rem 0.1rem;
+}
+.nav ul li {
+  width: 32.8%;
+}
+.nav ul li:hover a {
+  display: block;
+  color: #d43c33;
+}
+.nav ul li:hover a a {
+  width: 0.8rem;
+  border-bottom: 0.02rem solid #d43c33;
+}
+.nav ul .select {
+  color: #d43c33;
+}
+.hotsong {
+  font-size: 0.12rem;
+}
+.hotsong div {
+  width: 100%;
+  padding: 0.08rem 0.05rem;
+  border-bottom: 0.01rem solid beige;
+  border-top: 0.01rem solid beige;
+  white-space: nowrap;
+  position: relative;
+  left: 0.03rem;
+}
+.hotsong div .num {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 0.1rem;
+  right: 0.04rem;
+}
+.hotsong div .song {
+  display: inline-block;
+  font-weight: normal;
+}
+.hotsong div .alias {
+  display: inline-block;
+  font-weight: normal;
+  color: gray;
+  width: 1.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  top: 0.04rem;
+}
+.hotsong div h4 {
+  font-size: 0.12rem;
+  font-weight: normal;
+  color: gray;
+  position: relative;
+  left: 0.15rem;
+}
+.hotsong div h4 span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.02rem;
+  color: #d43c33;
+  border: 0.01rem solid #d43c33;
+  transform: scale(0.65);
+  position: relative;
+  right: 0.03rem;
+}
+input::-webkit-input-placeholder {
+  color: #e1e1e1;
+  font-size: 0.12rem;
+}
+.mysearch {
+  display: flex;
+  position: relative;
+  top: 0.1rem;
+}
+.search {
+  font-size: 0.12rem;
+  width: 100%;
+  height: 0.35rem;
+  border-radius: 0.15rem;
+  color: gray;
+}
+.query {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+.btn {
+  display: block;
+  position: relative;
+  top: 0.06rem;
+}
+.resou {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: 0.12rem;
+  position: relative;
+  left: 0.1rem;
+  bottom: 0.2rem;
+}
+.resou div {
+  width: 32.8%;
+}
+.resou div p {
+  padding-top: 0.2rem;
+}
+.hottitle {
+  font-size: 0.12rem;
+  padding: 0.2rem 0.1rem;
+  color: gray;
+  position: relative;
+  top: 0.05rem;
+}
+.singer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.06rem 0.05rem 0.06rem 0.05rem;
+  border-bottom: beige solid 0.01rem;
+  border-top: beige solid 0.01rem;
+}
+.singer img {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: relative;
+  top: 0.02rem;
+}
+.singer div {
+  width: 80%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.singer div span {
+  font-size: 0.17rem;
+  color: black;
+  padding-left: 0.08rem;
+}
+.singer div .highlight {
+  color: #507DAF;
+}
+.album {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.06rem 0.05rem 0.06rem 0.05rem;
+  border-top: beige solid 0.01rem;
+}
+.album img {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: relative;
+  top: 0.02rem;
+}
+.album div {
+  width: 95%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.album div span {
+  font-size: 0.17rem;
+  color: black;
+  padding-left: 0.08rem;
+}
+.infor p {
+  font-size: 0.12rem;
+  padding: 0.06rem 0.1rem;
+  color: gray;
+  position: relative;
+  top: 0.05rem;
+  left: 0.01rem;
+}
+.searchsong {
+  position: relative;
+  left: 0.05rem;
+  font-size: 0.12rem;
+  border-bottom: beige solid 1px ;
+  border-top: beige solid 1px ;
+  padding: 0.08rem 0;
+}
+.searchsong .songname {
+  font-size: 0.17rem;
+}
+.searchsong .highlight {
+  color: #507DAF;
+}
+.searchsong .normal {
+  color: #888888;
+}
+/*# sourceMappingURL=style.css.map */

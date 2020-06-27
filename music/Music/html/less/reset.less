@@ -1,0 +1,42 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  resize: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.f_left
+{
+  float: left;
+}
+
+.f_right
+{
+  float: right;
+}
+
+.clearFix::after
+{
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+body
+{
+  font-family: "Microsoft YaHei",sans-serif;
+  font-size: 0.18rem;
+  color: #333;
+}
+
+a{
+  color: #333;
+}
